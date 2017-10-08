@@ -1,11 +1,26 @@
-.dropdown:hover {
-    background-color: #e5e5e5;
+body {
+	background-color: rgb(226, 249, 145) !important;
 }
 
-.dropdown .dropdown-menu{
-    display: none;
+.content {
+	margin: 5px 100px 5px 100px;
+	width: inherit;
 }
 
-.dropdown:hover .dropdown-menu{
-    display: block;
+img {
+	position: relative;
+	width: 45%;
+	border: 3px solid lightgrey !important;
+	border-radius: 100px;
+	background-color: #ffffff;
 }
+
+.footer {
+	background-color: gray !important;
+}
+
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 768px){ .hide-on-mobile { display: none; }}
